@@ -32,14 +32,14 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: flutter_plugin
     platforms:
       android:
         dartPluginClass: QuillHtmlEditor
       ios:
         dartPluginClass: QuillHtmlEditor
       web:
-        dartPluginClass: QuillHtmlEditor
+        pluginClass: QuillHtmlEditorPlugin
+
   assets:
       - packages/quill_html_editor/assets/camera_roll_icon.png
       - packages/quill_html_editor/assets/h1_dark.png
